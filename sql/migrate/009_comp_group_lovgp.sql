@@ -1,0 +1,1 @@
+insert into trustbp.comp_group_lovgp SELECT * FROM trust.comp_group_lovgp;

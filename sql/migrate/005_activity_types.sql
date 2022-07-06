@@ -1,0 +1,1 @@
+insert into trustbp.activity_types select * from trust.activity_types;

@@ -1,0 +1,1 @@
+insert into trustbp.comp_groups SELECT * FROM trust.comp_groups;

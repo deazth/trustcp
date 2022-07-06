@@ -1,0 +1,1 @@
+insert into trustbp.act_sub_types SELECT * FROM trust.act_sub_types;

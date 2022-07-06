@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <!--Icon-->
+        
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+        <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+        <title>Meeting Area Search Results</title>
+ 
+    </head>
+         <!--Navbar-->
+         
+      <nav class="navbar navbar" style="background-color: rgb(44, 44, 110);">
+        <p style="color:white; font-size: 20px; margin-left: 50px; margin-bottom: 15px; "><b>tRUst</b><i class="las la-bell" style="margin-left: 1400px; size: 150px;"></i></p>
+       </nav>
+
+       <div class="container md">
+        <div class="row">
+            <h1 style="margin-top: 50px; margin-bottom: 20px;">Meeting Area Search Results</h1>
+            <h5 style="color: rgba(7, 4, 4, 0.7); margin-right: 20px; margin-bottom: 40px;" >Available Area</h5> 
+        </div>
+
+        <!--Content-->
+        <div class="container" style="background-color: rgb(224, 231, 247); width: 3500px;">
+            <br>
+            <div class="container shadow p-3 mb-5" style="background-color: white; ">
+            <div class="row">
+                <p  style="margin-top: 10px;">Search Parameters</p>
+                <p>Start Time: <span id="startdate"></span></span>  <span id="timestart"></span>    &nbsp   End Time: <span id="enddate"></span> <span id="endtime"></span></p>
+                
+
+            </div>
+        </div>
+            <!--Room available display-->
+            <div class="row shadow p-3 mb-5">
+                <div class="col shadow p-3 mb-5 " style="margin-top: -20px;background-color: white;  width: 50px;">
+                   
+                    <div class="row">
+                        <div class="col">
+                            
+                            <div class="img-size" >
+                                <img src="img/chairs-put-table-room-with-patterned-carpet.jpg" alt="..." class="img-thumbnail">
+                              </div>
+                        </div>
+                        <br>
+                        <div class="col-lg" >
+                            <h5 style="color:rgb(230, 102, 56); margin-right: 55px;"><b>Meeting Room Albatross</b></h5>
+                            <p p style="font-size: 13px; margin-right: 8px;">TM - Level 325 - Working Area - Neptune</p>
+                            <hr/  style="color: rgb(226, 68, 10); height: 3px; margin-right: 3px;">
+                            <p  style="color: grey; font-size: 10px;">Projector 1, Digital Whiteboard, 12pax</p>
+
+                            <span style=" font-size: 10px; color: gray; ">
+                           <i style="color: gray;" class="las la-chalkboard fa-lg" ></i>
+                           <i style="color: gray;"class="las la-desktop fa-lg"></i>
+                           <i style="color: rgb(236, 100, 37);"class="las la-print fa-lg"></i>
+                           <i style="color: rgb(236, 100, 37);"class="lab la-slideshare fa-lg"></i>
+                           <i style="color: gray;" class="las la-video fa-lg" ></i>
+                           
+                           12 pax </span>
+                         
+                        </div>
+                    
+                    </div>
+                </div>
+
+               
+                <div class="col shadow p-3 mb-5"style="margin-top: -20px;background-color: white;  margin-left: 20px; ">
+                  
+                    <div class="row">
+                       
+                            <div class="col">
+                            <div class="img-size" >
+                                <img src="img/modern-office-space-interior.jpg" alt="..." class="img-thumbnail">
+                              </div>
+                            </div>
+                        
+                        <br>
+                        <div class="col-lg" >
+                            <h5 style="color:rgb(230, 102, 56); margin-right: 55px;"><b>Discussion Area Ultra</b></h5>
+                            <p p style="font-size: 13px; margin-right: 8px;"> TM - Level 85 - Working Area - Uranus</p>
+                            <hr/  style="color: rgb(226, 68, 10); height: 3px; margin-right: 3px;">
+                            <p  style="color: grey;font-size: 10px;">Projector 1, Digital Whiteboard, 8 pax</p>
+
+                            <span style=" font-size: 10px; color: gray; ">
+                                <i style="color: gray;" class="las la-chalkboard fa-lg" ></i>
+                                <i style="color: gray;"class="las la-desktop fa-lg"></i>
+                                <i style="color: rgb(236, 100, 37);"class="las la-print fa-lg"></i>
+                                <i style="color: rgb(236, 100, 37);"class="lab la-slideshare fa-lg"></i>
+                                <i style="color: gray;" class="las la-video fa-lg" ></i>
+                                
+                                12 pax </span>
+                         
+                        </div>
+                    
+                    </div>
+               
+                </div>
+
+            </div>
+            
+        </div>
+    <body>
+        <script>
+            document.getElementById("startdate").innerHTML=localStorage.getItem("startdate");
+            document.getElementById("timestart").innerHTML=localStorage.getItem("startTime");
+            document.getElementById("enddate").innerHTML=localStorage.getItem("endDate");
+            document.getElementById("endtime").innerHTML=localStorage.getItem("endTime");
+
+        </script>
+        
+    </body>
+</html>

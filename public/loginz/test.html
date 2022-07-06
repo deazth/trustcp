@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<div=></div>.container-fluid
+  .row
+    .col-lg-6.offset-lg-3.col-md-8.offset-md-2
+      .content
+        h1 DateTimePicker Styles
+        .form-group
+          label Date
+          #datepicker.input-group.date
+            input.form-control(placeholder="MM/DD/YYYY")
+            span.input-group-append.input-group-addon
+              span.input-group-text
+                i.fa.fa-calendar
+        .form-group
+          label Time
+          #timepicker.input-group.time
+            input.form-control(placeholder="HH:MM AM/PM")
+            span.input-group-append.input-group-addon
+              span.input-group-text
+                i.fa.fa-clock
+  </head>
+  <body>
+	<div id="app">
+		<div class="instructions">You can use your keyboard to navigate</div>
+	   <timepicker v-model="time">    </timepicker>
+	 </div>
+	 <script>
+		 Vue.component('timepicker', window.VueTimepickr.default);
+
+new Vue({
+  el: '#app',
+  data: ({
+    time: '13:20'
+  })
+});
+	 </script>
+  </body>
+
+</html>

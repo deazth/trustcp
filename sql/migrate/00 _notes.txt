@@ -1,0 +1,22 @@
+
+
+add is_public_holiday, public_holiday_id, avatar_id to trustbp.daily_performances
+
+
+1st Attempt
+
+vagrant@homestead:~/code/trustbp$ php artisan migrate
+Migrating: 2013_04_09_062329_create_revisions_table
+Migrated:  2013_04_09_062329_create_revisions_table (51.68ms)
+Migrating: 2015_08_04_131614_create_settings_table
+Migrated:  2015_08_04_131614_create_settings_table (45.17ms)
+Migrating: 2016_05_05_115641_create_menu_items_table
+Migrated:  2016_05_05_115641_create_menu_items_table (24.94ms)
+Migrating: 2016_05_25_121918_create_pages_table
+Migrated:  2016_05_25_121918_create_pages_table (24.13ms)
+Migrating: 2017_04_10_195926_change_extras_to_longtext
+Migrated:  2017_04_10_195926_change_extras_to_longtext (94.80ms)
+Migrating: 2020_03_31_114745_remove_backpackuser_model
+Migrated:  2020_03_31_114745_remove_backpackuser_model (1.32ms)
+Migrating: 2021_02_04_041500_create_permission_tables
+

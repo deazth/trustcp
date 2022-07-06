@@ -1,0 +1,159 @@
+.btn-primary {
+    background-color: orangered;
+    border-color: coral;
+  }
+
+  .btn-primary {
+    background-color: orangered;
+    border-color: coral;
+  }
+
+  .btn-outline-primary {
+    color: orangered;
+    border-color:coral;
+}
+
+.btn-outline-primary:hover {
+    background-color: orangered;
+    border-color: coral;
+}
+
+.btn.nohover:hover {
+  /* here copy default .btn class styles */
+  cursor:default !important;
+  border-color: coral;
+}
+
+.btn.nohover{
+ 
+    pointer-events: none;
+
+}
+/**
+
+.card.bg-light .card-header {
+  background-color: #e7ecf3;
+  border-color: #c7d3e3;
+}
+
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #f9fbfd;
+    border-bottom: 1px solid #d9e2ef;
+}
+
+.app-header {
+    position: fixed;
+    z-index: 1020;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+a {
+    color: #7c69ef;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.sidebar.sidebar-pills .nav-link.active, .sidebar.sidebar-pills .nav-link:hover {
+  color: #7c69ef!important;
+
+}
+73818f -> 143e8c
+7c69ef-> orangered
+c7d3e3 -> lemonchiffon
+e7ecf3 -> FF662450
+f9fbfd -> FF6624
+**/
+
+.card.bg-light .card-header {
+  background-color: #FF662480;
+  border-color: lemonchiffon;
+}
+.card-header {
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: blue;
+  border-bottom: 1px solid #d9e2ef;
+  color: whitesmoke;
+  font-weight: bold;
+} 
+
+
+
+
+
+
+a {
+    color: orangered;
+
+}
+
+
+a:hover {
+  color: orangered;
+
+}
+.nav-icon:hover, .nav-icon:active {
+  color: orangered!important;
+
+
+}
+
+
+i:hover, .nav-icon:active {
+  color: orangered!important;
+
+
+}
+.sidebar.sidebar-pills .nav-link.active, .sidebar.sidebar-pills .nav-link:hover, .nav-icon {
+  color: orangered!important;
+
+}
+
+
+.nav-icon::before {
+  color: orangered!important;
+}
+
+
+
+.app-header.bg-light .navbar-brand {
+  color: #143e8c;
+   opacity: 1; 
+}
+
+.navbar-toggler-icon{
+  color: green!important;
+
+
+  
+}
+
+
+
+.consistent-height .tab-content {
+  display: flex;
+}
+
+.consistent-height .tab-content > .tab-pane {
+  display: block; /* undo "display: none;" */
+  visibility: hidden;
+  margin-right: -100%;
+  width: 100%;
+}
+
+.consistent-height .tab-content > .active {
+  visibility: visible;
+}
+
+.op09
+{
+    opacity:0.9 !important;
+}
+
+.app-header {
+  background-color: blue !important;
+}

@@ -1,0 +1,1 @@
+insert into trustbp.lovgps SELECT * FROM trust.lovgps;

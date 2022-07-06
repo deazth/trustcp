@@ -1,0 +1,1 @@
+insert into trustbp.lovgp_task_category SELECT * FROM trust.lovgp_task_category;

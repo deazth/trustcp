@@ -1,0 +1,22 @@
+
+
+.ico_meeting:before {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1; 
+    
+    content: url("/icons/meeting.ico") ;
+    background-size: 15px 15px;
+    font-size: 2em; 
+    background-size: auto 100%;
+    #background: url("/icons/meeting2.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    
+
+
+  
+}
+
